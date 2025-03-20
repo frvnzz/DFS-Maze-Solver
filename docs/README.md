@@ -23,11 +23,11 @@ Before running the program, ensure that you have the following installed:
 
 ### Installation
 
-1. Clone the repository or download the source code from [here](https://github.com/frvnzz/dfs-maze-solver/archive/refs/heads/main.zip):
+1. Clone the repository or download the source code from [here](https://github.com/frvnzz/DFS-Maze-Solver/archive/refs/heads/main.zip):
 
    ```bash
-   git clone https://github.com/frvnzz/dfs-maze-solver.git
-   cd dfs-maze-solver/DFSApplication
+   git clone https://github.com/frvnzz/DFS-Maze-Solver.git
+   cd DFS-Maze-Solver/DFSApplication
    ```
 
 2. Generate a maze and specify it in `/DFSAlgorithm/Maze.cs`. I found ChatGPT very helpful to generate mazes with this prompt:
