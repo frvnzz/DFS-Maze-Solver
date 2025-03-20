@@ -1,7 +1,7 @@
 ## DFS-Maze-Solver
 
 <p align="center">
-  <img width="800" src="/docs/Depth-First-Search.gif">
+  <img width="400" src="/docs/Depth-First-Search.gif">
 </p> 
 
 This program solves a Maze (2D integer array with 1 = wall and 0 = paths) using the Depth-first search algorithm.
@@ -23,11 +23,11 @@ Before running the program, ensure that you have the following installed:
 
 ### Installation
 
-1. Clone the repository or download the source code from [here](-):
+1. Clone the repository or download the source code from [here](https://github.com/frvnzz/dfs-maze-solver/archive/refs/heads/main.zip):
 
    ```bash
-   git clone -
-   cd -
+   git clone https://github.com/frvnzz/dfs-maze-solver.git
+   cd dfs-maze-solver/DFSApplication
    ```
 
 2. Generate a maze and specify it in `/DFSAlgorithm/Maze.cs`. I found ChatGPT very helpful to generate mazes with this prompt:
@@ -65,7 +65,7 @@ Before running the program, ensure that you have the following installed:
 
 ## License
 
-Distributed under the Unlicense License. See `/docs/LICENSE.txt` for more information.
+Distributed under the Unlicense License. See `/docs/LICENSE` for more information.
 
 ## Contact
 

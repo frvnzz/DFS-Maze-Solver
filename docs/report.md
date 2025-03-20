@@ -19,7 +19,13 @@ Name: Franz-Aurel Huber
 (the challenges you faced and how you solved it)
 
 ## Work with: 
-(List down the name of your colleagues if you work with them)
+/
 
 ## Reference: 
-(any reference material used for project)
+### Websites:
+[Depth-first search – Wikipedia](https://en.wikipedia.org/wiki/Depth-first_search)
+[Depth First Search (DFS) – Programiz](https://www.programiz.com/dsa/graph-dfs)
+[Depth-First Search (DFS) Algorithm – Medium](https://medium.com/@that-software-PM/depth-first-search-dfs-algorithm-201dc95e524)
+
+### Videos:
+[Depth-first search in 4 minutes](https://www.youtube.com/watch?v=Urx87-NMm6c)
