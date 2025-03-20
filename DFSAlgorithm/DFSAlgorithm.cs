@@ -41,7 +41,7 @@ namespace DFSAlgorithm
             }
 
             path.RemoveAt(path.Count - 1);
-            visited[x, y] = false; // Unmark the cell as visited for backtracking
+            visited[x, y] = false;
             return false;
         }
 
