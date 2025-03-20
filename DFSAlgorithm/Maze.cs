@@ -7,6 +7,7 @@ public class Maze
     // 0 = path, 1 = wall
     public Maze()
     {
+        // DEFINE YOUR MAZE HERE
         Grid = new int[,]
         {
             { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
@@ -22,6 +23,7 @@ public class Maze
         };
     }
 
+    // The first open cell (0) will be the start point
     public (int, int) FindStartPoint()
     {
         for (int i = 0; i < Rows; i++)
@@ -34,9 +36,10 @@ public class Maze
                 }
             }
         }
-        return (-1, -1);
+        return (-1, -1); // No valid start point found
     }
 
+    // Endpoints are the last row or column with a 0
     public (int, int) FindEndPoint()
     {
         for (int i = 0; i < Rows; i++)
@@ -49,6 +52,6 @@ public class Maze
                 }
             }
         }
-        return (-1, -1); // No valid endpoint found
+        return (-1, -1); // No valid end point found
     }
 }
