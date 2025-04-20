@@ -4,7 +4,7 @@
   <img width="400" src="/docs/Depth-First-Search.gif">
 </p> 
 
-This program solves a Maze (2D integer array with 1 = wall and 0 = paths) using the Depth-first search algorithm.
+This program solves a Maze (formatted as a 2D integer array with 1 = wall and 0 = paths) using the Depth-first search algorithm.
 
 ### Built With
 
@@ -53,15 +53,18 @@ Before running the program, ensure that you have the following installed:
 
 ### Usage
 
-(show useful examples of how a project can be used)
+This project can be used to solve complicated mazes. The main drawback of my implementation is having to translate a maze into 0s and 1s.
 
 ## Roadmap
 
-(what have been implemented and what are the planed features.)
+### Implemented Features
 
-## Contributing
+- **DFS Algorithm**: The Depth-first-search Algorithm was implemented into `DFSAlgorithm.cs`.
+- **Console Output**: The console output was customized for readability in `MazePrinter.cs`.
 
-(encourage people to work on your project)
+### Possible Changes
+
+- **GUI**: A proper user interface featuring a separate input for the maze, etc.
 
 ## License
 

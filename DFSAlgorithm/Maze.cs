@@ -36,7 +36,7 @@ public class Maze
                 }
             }
         }
-        return (-1, -1); // No valid start point found
+        return (-1, -1); // if no valid start point is found
     }
 
     // Endpoints are the last row or column with a 0
@@ -52,6 +52,6 @@ public class Maze
                 }
             }
         }
-        return (-1, -1); // No valid end point found
+        return (-1, -1); // if no valid end point is found
     }
 }

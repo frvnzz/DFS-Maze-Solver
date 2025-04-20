@@ -1,4 +1,3 @@
-
 # Assignment1 Report
 
 Course: C# Development SS2025 (4 ECTS, 3 SWS)
@@ -29,3 +28,6 @@ Name: Franz-Aurel Huber
 
 ### Videos:
 [Depth-first search in 4 minutes](https://www.youtube.com/watch?v=Urx87-NMm6c)
+[Depth First Search Algorithm | Graph Theory](https://www.youtube.com/watch?v=7fujbpJ0LB4)
+[Path-finding Visualization Comparison; A*, Dijkstra, BFS and DFS](https://www.youtube.com/watch?v=aW9kZcJx64o)
+[Depth First Search (DFS) Explained - Visual](https://www.youtube.com/watch?v=VTAZ3lPOllA)
