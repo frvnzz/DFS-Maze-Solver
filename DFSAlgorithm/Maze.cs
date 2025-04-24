@@ -23,13 +23,15 @@ public class Maze
         };
     }
 
-    // The first open cell (0) will be the start point
+    // the first open cell (0) will be the start point
     public (int, int) FindStartPoint()
     {
+        // loop through all rows and columns to find the first 0
         for (int i = 0; i < Rows; i++)
         {
             for (int j = 0; j < Cols; j++)
             {
+                // if the cell is 0, return its coordinates
                 if (Grid[i, j] == 0)
                 {
                     return (i, j);
@@ -39,13 +41,15 @@ public class Maze
         return (-1, -1); // if no valid start point is found
     }
 
-    // Endpoints are the last row or column with a 0
+    // endpoints are the last row or column with a 0
     public (int, int) FindEndPoint()
     {
+        // loop through all rows and columns to find the last 0
         for (int i = 0; i < Rows; i++)
         {
             for (int j = 0; j < Cols; j++)
             {
+                // if the cell is 0, return its coordinates
                 if (Grid[i, j] == 0 && (i == Rows - 1 || j == Cols - 1))
                 {
                     return (i, j);

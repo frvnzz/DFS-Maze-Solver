@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DFSAlgorithm
 {
-    // Defines the console output for the solution of the maze (colors)
+    // defines the console output for the solution of the maze (colors)
     public class MazePrinter
     {
         public static void PrintSolution(Maze maze, List<(int, int)> path)

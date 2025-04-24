@@ -7,7 +7,7 @@ namespace DFSAlgorithm
     {
         private readonly Maze maze;
         private readonly (int, int) start, end;
-        private readonly List<(int, int)> path = new();
+        private readonly List<(int, int)> path = new(); // generics - each visited cell that is part of the path is added to this list
         private readonly bool[,] visited;
 
         public DFSAlgorithm(Maze maze, (int, int) start, (int, int) end)
@@ -18,29 +18,29 @@ namespace DFSAlgorithm
             this.visited = new bool[maze.Rows, maze.Cols];
         }
 
-        // Returns true if a solution is found, false otherwise
+        // returns true if a solution is found, false otherwise
         public bool Solve() => DFS(start.Item1, start.Item2);
 
-        // True if path is found, false otherwise
+        // true if path is found, false otherwise
         private bool DFS(int x, int y)
         {
-            // Check for out of bounds, walls, and visited cells
+            // check for out of bounds, walls, and visited cells
             if (x < 0 || y < 0 || x >= maze.Rows || y >= maze.Cols || maze.Grid[x, y] == 1 || visited[x, y])
                 return false;
 
-            // Mark the cell as visited and add it to the path
+            // mark the cell as visited and add it to the path
             visited[x, y] = true;
             path.Add((x, y));
 
-            // Check if the end point is reached
+            // check if the end point is reached
             if ((x, y) == end)
                 return true;
 
-            // Array of possible moves (directions)
+            // array of possible moves (directions)
             int[] dx = { -1, 1, 0, 0 };
             int[] dy = { 0, 0, -1, 1 };
 
-            // Recursively check all four possible moves
+            // recursively check all four possible moves
             for (int i = 0; i < 4; i++)
             {
                 if (DFS(x + dx[i], y + dy[i]))

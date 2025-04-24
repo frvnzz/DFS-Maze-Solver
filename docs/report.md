@@ -33,8 +33,8 @@ Name: Franz-Aurel Huber
      - The solution path (`2`) is displayed in green.
 
 5. **Execution**:
-   - The `Program` class initializes the maze, detects the start and end points, and invokes the DFS algorithm to solve the maze.
-   - If a solution is found, the solution path is printed to the console. Otherwise, an error message is displayed.
+   - The `Program` class initializes the maze, detects the start and end points, and uses the DFS algorithm to solve the maze.
+   - If a solution is found, the solution path is printed to the console by `MazePrinter.cs`. Otherwise, an error message is displayed.
 
 ## Additional Features
 Correct path visualization in the console through `/DFSAlgorithm/MazePrinter.cs`
