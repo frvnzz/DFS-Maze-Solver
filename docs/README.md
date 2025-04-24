@@ -45,6 +45,8 @@ Before running the program, ensure that you have the following installed:
     Format the maze as a C# integer 2D array.
    ```
 
+Alternatively, you can choose one of the mazes provided in `/docs/smapleMazes.cs`.
+
 3. Run the program using one of the following command:
 
     ```bash

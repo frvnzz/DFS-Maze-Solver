@@ -10,6 +10,7 @@ namespace DFSAlgorithm
         {
             for (int i = 0; i < maze.Rows; i++)
             {
+                Console.ResetColor();
                 Console.Write("{ ");
                 for (int j = 0; j < maze.Cols; j++)
                 {
@@ -31,9 +32,10 @@ namespace DFSAlgorithm
 
                     if (j < maze.Cols - 1) Console.Write(", ");
                 }
+                Console.ResetColor();
                 Console.WriteLine(" }");
             }
-            Console.ResetColor();
+            Console.ResetColor(); // reset console color after printing
         }
     }
 }
