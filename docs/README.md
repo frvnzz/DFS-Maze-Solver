@@ -55,7 +55,7 @@ Alternatively, you can choose one of the mazes provided in `/docs/smapleMazes.cs
 
 ### Usage
 
-This project can be used to solve complicated mazes. The main drawback of my implementation is having to translate a maze into 0s and 1s.
+This project can be used to solve complicated mazes. The main drawback of my implementation is having to translate a maze into an integer array consisting of 0s and 1s first.
 
 ## Roadmap
 

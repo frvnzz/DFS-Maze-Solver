@@ -37,14 +37,12 @@ Name: Franz-Aurel Huber
    - If a solution is found, the solution path is printed to the console. Otherwise, an error message is displayed.
 
 ## Additional Features
-Correct path visualization in the console through `DFSAlgorithm\MazePrinter.cs`
+Correct path visualization in the console through `/DFSAlgorithm/MazePrinter.cs`
 
 ## Discussion/Conclusion
 ### Challenges Faced
 1. **Dynamic start and end detection**
 2. **Path visualization in the console**: Outputting the correct path in an understandable way without a GUI.
-
-### Lessons Learned
 
 ### Future Improvements
 - A graphical user interface
