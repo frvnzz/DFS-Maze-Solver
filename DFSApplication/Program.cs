@@ -8,17 +8,17 @@ namespace DFSApplication
         static void Main()
         {
             var maze = new Maze();
-            var start = maze.FindStartPoint(); // Find the start point dynamically (from Maze.cs)
-            var end = maze.FindEndPoint(); // Find the endpoint dynamically (from Maze.cs)
+            var start = maze.FindStartPoint(); // find the start point (from Maze.cs)
+            var end = maze.FindEndPoint(); // find the endpoint (from Maze.cs)
 
-            // If no valid start or end point found (from Maze.cs), print a message and return
+            // if no valid start or end point found (from Maze.cs), print a message and return
             if (start == (-1, -1) || end == (-1, -1))
             {
                 Console.WriteLine("No valid start or end point found.");
                 return;
             }
 
-            // Solve the maze using the algorithm defined in DFSAlogrithm.cs
+            // solve the maze using the algorithm defined in DFSAlogrithm.cs
             var solver = new DFSAlgorithm.DFSAlgorithm(maze, start, end);
 
             if (solver.Solve())
